@@ -1,0 +1,18 @@
+---
+layout: post
+title: "mysql"
+date: 2015-02-19 22:41:08 -0300
+comments: true
+categories: mysql
+---
+Recuperar la clave del root mysql
+
+
+Para ser sincero siempre se me olvida cual mierda de clave le puse al mysql y siempre googleo, aunque ahora encontre algo que esta rebueno y que no olvidare y si a alguien le sirve macanuito.
+
+```bash
+
+sudo dpkg-reconfigure mysql-server-*.*
+```
+
+espero le sirva a algún ser humano.
