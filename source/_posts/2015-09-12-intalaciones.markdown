@@ -30,7 +30,7 @@ wget http://download.netbeans.org/netbeans/8.0.2/final/bundles/netbeans-8.0.2-li
 Una vez que esté listo le daremos permisos para poder correrlo y luego a instalar.
 
 ```bash
-chmod +x netbeans-8.0.2-linux.shnetbeans-8.0.2-linux.sh
+chmod +x netbeans-8.0.2-linux.sh
 ./netbeans-8.0.2-linux.sh
 ```
 
@@ -122,6 +122,7 @@ Los paquetes/librerías instaladas de esta forma son globales para nuestro usuar
 ```bash
 composer global require "laravel/installer=~1.1"
 echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
+composer global require "laravel/installer=~1.1"
 ```
 
 
